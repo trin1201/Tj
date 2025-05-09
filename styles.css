@@ -1,0 +1,24 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Lucida Grande", "Helvetica Neue", sans-serif;
+}
+
+.desktop {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#c8d8e8, #ffffff);
+    position: relative;
+    overflow: hidden;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle, #f8f8f8, #cccccc);
+    border-radius: 12px;
+    position: absolute;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
